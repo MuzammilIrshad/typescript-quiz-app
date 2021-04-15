@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Quizdetails from './QuizApp/Quiz';
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+    <React.StrictMode>
+      
+      <Quizdetails />
+          
   </React.StrictMode>,
   document.getElementById('root')
 );
