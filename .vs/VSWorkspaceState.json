@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src"
+    "\\src",
+    "\\src\\QuizApp"
   ],
-  "SelectedNode": "\\tsconfig.json",
+  "SelectedNode": "\\src\\QuizApp\\App.css",
   "PreviewInSolutionExplorer": false
 }

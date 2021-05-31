@@ -29,12 +29,12 @@ export default function Result({ score, count }: { score: number, count: number 
 
     const classes = useStyles();
     const bull = <span className={classes.bullet}>•</span>;
-    const finalResult = 'Obtained: ' + score;
+    const finalResult = 'Obtained Marks: ' + score;
     const total = ' Total Marks: ' + count;
     return (
         <Card className={classes.root} id='question'>
-        <CardContent>
-            <Typography className={classes.title} color="textSecondary" gutterBottom id='title'>
+            <CardContent>
+                <Typography className={classes.title} color="textSecondary" gutterBottom id='title' style={{ backgroundColor:"green" }}>
                RESULT:
         </Typography>
             <Typography color="textSecondary" gutterBottom>
